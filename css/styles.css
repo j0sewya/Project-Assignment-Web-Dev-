@@ -14,3 +14,37 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Playfair Display", serif;
 }
 
+.hero{
+    min-height: 100vh;
+    background: linear-gradient
+    (
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("../images/coffee.jpg") center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    max-width: 700px;
+}
+
+.hero-tagline{
+    color: #D8BFAA;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.hero-heading{
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.hero-description{
+    font-size: 1.1rem;
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}
