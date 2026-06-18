@@ -6,6 +6,8 @@
 
 body{
     background-image: url("../images/coffeee.png");
+    background-size: cover;
+    background-position: center;
     font-family: "DM Sans", sans-serif;
     color: #F5F1EC;
 }
