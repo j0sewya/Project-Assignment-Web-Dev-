@@ -5,9 +5,12 @@
 }
 
 body{
+    min-height: 100vh;
     background-image: url("../images/coffeee.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
     font-family: "DM Sans", sans-serif;
     color: #F5F1EC;
 }
@@ -61,16 +64,10 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
-.about-hero{
+.about-hero, .about-content{
+    max-width: 650px;
     position: relative;
-    left: 0px;
-    text-align: center;
-    padding-left: 30px;
-}
-
-.about-content{
-    position: relative;
-    left: 300px;
+    left: 400px;
     text-align: center;
     padding-left: 30px;
 }
