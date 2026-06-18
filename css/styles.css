@@ -68,6 +68,6 @@ h1, h2, h3, h4, h5, h6{
     max-width: 650px;
     position: relative;
     left: 400px;
-    text-align: center;
+    align-items: center;
     padding-left: 30px;
 }
