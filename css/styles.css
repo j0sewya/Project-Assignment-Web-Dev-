@@ -60,3 +60,17 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
     align-items: center;
 }
+
+.about-hero{
+    position: relative;
+    left: 0px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.about-content{
+    position: relative;
+    left: 300px;
+    text-align: center;
+    padding-left: 30px;
+}
