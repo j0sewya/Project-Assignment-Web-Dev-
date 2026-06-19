@@ -19,13 +19,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Playfair Display", serif;
 }
 
-.nav
 .hero{
     min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    padding: 80px;
     display: flex;
     align-items: center;
 }
@@ -33,40 +29,68 @@ h1, h2, h3, h4, h5, h6{
 .hero-content{
     position: relative;
     max-width: 650px;
-    padding-left: 30px;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .hero-tagline{
     color: #D8BFAA;
     letter-spacing: 2px;
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
 }
 
 .hero-heading{
-    font-size: 4rem;
+    font-size: clamp(2.2rem, 5vw, 4rem);
     margin: 20px 0;
+    line-height: 1.2;
 }
 
 .hero-description{
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 2vw, 1.1rem);
     color: #d0d0d0;
     margin-bottom: 30px;
 }
 
+.hero-buttons .btn {
+    margin-bottom: 10px;
+}
+
 .container{
     background: transparent;
-    padding: 10px;
 }
 
 .toplinks{
-    margin: 10px;
+    margin: 5px 10px;
     display: inline-block;
-    align-items: center;
 }
 
 .about-hero, .about-content, .contact-hero{
-    max-width: 650px;
+    width: 100%;
+    max-width: 750px;
     position: relative;
-    align-items: center;
-    padding-left: 30px;
+    padding: 100px 20px 40px 20px;
+}
+
+@media(min-width: 768px){
+    .hero-content{
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    .about-hero, .about-content, .contact-hero{
+        padding-left: 30px;
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 991.98px){
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .toplinks{
+        display: block;
+        margin: 10px 0;
+    }
 }
