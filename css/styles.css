@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Playfair Display", serif;
 }
 
+.nav
 .hero{
     min-height: 100vh;
     background-size: cover;
@@ -31,7 +32,6 @@ h1, h2, h3, h4, h5, h6{
 
 .hero-content{
     position: relative;
-    left: 300px;
     max-width: 650px;
     padding-left: 30px;
 }
@@ -64,10 +64,9 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
-.about-hero, .about-content{
+.about-hero, .about-content, .contact-hero{
     max-width: 650px;
     position: relative;
-    left: 400px;
     align-items: center;
     padding-left: 30px;
 }
