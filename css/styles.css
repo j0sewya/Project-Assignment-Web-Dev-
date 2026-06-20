@@ -6,7 +6,8 @@
 
 body{
     min-height: 100vh;
-    background-image: url("../images/coffeee.png");
+    /*background-image: url("../images/coffeee.png");*/
+    background-color: #1A1D23;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
