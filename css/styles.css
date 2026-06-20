@@ -8,9 +8,9 @@ body{
     min-height: 100vh;
     /*background-image: url("../images/coffeee.png");*/
     background-color: #1A1D23;
-    background-size: cover;
+    /*background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     margin: 0;
     font-family: "DM Sans", sans-serif;
     color: #F5F1EC;
