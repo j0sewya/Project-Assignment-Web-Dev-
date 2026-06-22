@@ -147,6 +147,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .testimonials-image img{
+    display: flex;
+    justify-content: center;
     width: 100%;
     max-width: 320px;
     height: 320px;
@@ -164,8 +166,8 @@ h1, h2, h3, h4, h5, h6{
     font-size: 2rem;
 }
 
-.testimonial-content h2{
-    font-size:3rem;
+.testimonials-content h2{
+    font-size:2.5rem;
     margin:15px 0 25px;
 }
 
@@ -181,11 +183,11 @@ h1, h2, h3, h4, h5, h6{
     color:#d0d0d0;
 }
 
-.testimonial-content h5{
+.testimonials-content h5{
     margin-top:25px;
     margin-bottom:0;
 }
 
-.testimonial-content span{
+.testimonials-content span{
     color:#999;
 }
