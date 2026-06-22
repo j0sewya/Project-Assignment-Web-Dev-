@@ -140,3 +140,50 @@ h1, h2, h3, h4, h5, h6{
         margin: 10px 0;
     }
 }
+
+.testimonials{
+    padding: 20px 0;
+    background: #0f1115;
+}
+
+.testimonials-image img{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.testimonials-content{
+    padding: 20px;
+}
+
+.testimonials-tag{
+    color: #D8BFAA;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.testimonial-content h2{
+    font-size:3rem;
+    margin:15px 0 25px;
+}
+
+.stars{
+    color:#D8BFAA;
+    font-size:1.3rem;
+    margin-bottom:20px;
+}
+
+.testimonial-text{
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#d0d0d0;
+}
+
+.testimonial-content h5{
+    margin-top:25px;
+    margin-bottom:0;
+}
+
+.testimonial-content span{
+    color:#999;
+}
