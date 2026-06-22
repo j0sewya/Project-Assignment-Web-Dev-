@@ -156,6 +156,17 @@ h1, h2, h3, h4, h5, h6{
     object-fit: cover;
 }
 
+.testimonials-image:hover{
+    transform: translateY(-5px);
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.3);
+}
+.testimonials-content:hover{
+    transform: translateY(-5px);
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.3);
+}
+
 .testimonials-content{
     padding: 20px;
 }
