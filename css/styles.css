@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6{
 
 .toplinks{
     margin: 5px 10px;
+    padding: 10px;
     display: inline-block;
 }
 
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .products-section{
-    padding: 20px 0;
+    padding: 30px 0;
     background: transparent;
 }
 
