@@ -6,11 +6,7 @@
 
 body{
     min-height: 100vh;
-    /*background-image: url("../images/coffeee.png");*/
     background-color: #1A1D23;
-    /*background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
     margin: 0;
     font-family: "DM Sans", sans-serif;
     color: #F5F1EC;
@@ -22,7 +18,7 @@ h1, h2, h3, h4, h5, h6{
 
 .hero{
     min-height: 100vh;
-    padding: 80px;
+    padding: 40px;
     display: flex;
     align-items: center;
 }
