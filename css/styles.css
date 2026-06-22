@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6{
 
 .testimonials{
     padding: 20px 0;
-    background: #0f1115;
+    background: transparent;
 }
 
 .testimonials-image img{
