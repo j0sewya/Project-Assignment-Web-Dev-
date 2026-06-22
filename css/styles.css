@@ -62,6 +62,22 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
 }
 
+.btn-primary{
+    background-color: #D8BFAA;
+    border-color: #D8BFAA;
+    color: #111;
+}
+
+.btn-primary:hover{
+    background-color: #C8A991;
+    border-color: #C8A991;
+    color: #111;
+}
+
+.btn-outline-light:hover{
+    color: #111;
+}
+
 .about-hero, .about-content, .contact-hero{
     width: 100%;
     max-width: 750px;
