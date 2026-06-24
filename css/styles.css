@@ -6,7 +6,11 @@
 
 body{
     min-height: 100vh;
-    background-color: #1A1D23;
+    /*background-color: #1A1D23;*/
+    background-image: url("../images/desktop-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     font-family: "DM Sans", sans-serif;
     color: #F5F1EC;
