@@ -49,3 +49,30 @@ const year = document.getElementById("year");
 if(year){
     year.textContent = new Date().getFullYear();
 }
+
+const copyPhone = document.getElementById("phoneNumber");
+const copyEmail = document.getElementById("emailAddress");
+
+function copyText(element){
+    const originalText = element.textContent;
+
+    navigator.clipboard.writeText(originalText.trim());
+
+    element.textContent = "✓ Copied";
+
+        setTimeout(function(){
+            element.textContent = originalText; 
+        }, 2000);
+}
+
+if(copyPhone){
+    copyPhone.addEventListener("click",function(){
+        copyText(copyPhone);
+    });
+}
+
+if(copyEmail){
+    copyEmail.addEventListener("click",function(){
+        copyText(copyEmail);
+    });
+}
