@@ -286,6 +286,18 @@ h1, h2, h3, h4, h5, h6{
     color:#d0d0d0;
 }
 
+.copy-text{
+    color:#D8BFAA;
+    cursor:pointer;
+    transition:0.3s;
+    font-weight:600;
+}
+
+.copy-text:hover{
+    color:#F5F1EC;
+    text-decoration:underline;
+}
+
 .contact-form .form-control{
     background:#D8BFAA;
     border:none;
