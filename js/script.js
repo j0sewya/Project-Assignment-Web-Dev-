@@ -1,6 +1,8 @@
 const form = document.getElementById("contactForm");
 
-form.addEventListener("submit", function(event){
+
+if (form){
+    form.addEventListener("submit", function(event){
     event.preventDefault();
     const name =document.getElementById("name").value.trim();
     const email =document.getElementById("email").value.trim();
@@ -41,3 +43,9 @@ form.addEventListener("submit", function(event){
 
     form.reset();
 })
+}
+const year = document.getElementById("year");
+
+if(year){
+    year.textContent = new Date().getFullYear();
+}
