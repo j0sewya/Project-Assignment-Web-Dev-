@@ -487,3 +487,44 @@ h1, h2, h3, h4, h5, h6{
     color:#d0d0d0;
 }
 
+.footer{
+    background-color: #14171D;
+    padding: 25px 0 10px;
+    margin-top: 25px;
+}
+
+.footer h4{
+    font-family: "Playfair Display", serif;
+    color: #D8BFAA;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: #cfcfcf;
+    line-height: 1.8;
+}
+
+.footer-links li{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a{
+    color: #cfcfcf;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.footer-links a:hover{
+    color: #D8BFAA;
+    padding-left: 6px;
+}
+
+.footer hr{
+    border-color: #333;
+    margin: 20px 0 10px;
+}
+
+.footer-bottom{
+    color: #999;
+}
